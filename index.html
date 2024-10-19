@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="solrac">
+    <meta name="description" content="My Projects TW 2">
+    <meta name="keywords" content="HTML, CSS, JS, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>My Profile</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <!-- Bootstrap CSS offline -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons offline -->
+    <link href="./icons/bootstrap-icons.css" rel="stylesheet">
+    Bootstrap CSS online
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    Bootstrap Icons online 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/perffil.png" width="50" alt="My logo">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center aling-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#aboutme" aria-current="page">Sobre mí <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#references">Referencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Me -->
+    <section class="myclass d-flex align-items-stretch" style="background-color: #f7f7f7; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <div class="myclass-main d-flex flex-column justify-content-center align-items-center text-center" style="flex: 1;">
+            <img class="myclass-pic rounded-circle" src="./images/perfilq.jpg" alt="My selfie" style="width: 150px; height: 150px; margin-bottom: 20px; border: 2px solid #4CAF50;">
+            <h1 style="font-size: 2.5rem; color: #333;">Hi, I'm Elisa</h1>
+            <h2 style="font-size: 3.5rem; color: #4CAF50; font-style: italic;">💻Informática📚</h2>
+        </div>
+        <div class="myclass-label text-center" style="flex: 1;">
+            <img class="myclass-imagen img-fluid" src="./images/incio.gif" alt="think twice code once" style="width: 400px; height: auto; margin: 20px auto; display: block;">
+        </div>
+    </section>
+    
+
+
+    <!-- About me -->
+    <section id="aboutme" class="about-me section-oscura">
+        <div class="contenedor" style="width: 80%; max-width: 1300px; margin: 0 auto;">
+            <h2 class="seccion-titulo" style="text-align: center; color: #ffffff; font-family: 'Georgia', serif; font-size: 2em; margin: 20px 0; font-weight: bold; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);">
+                Conoce a Elisa
+            </h2>
+                        <p class="seccion-texto">
+                <h1 style="text-align: center; color: #ffffff; font-family: 'Georgia', serif; font-size: 2.8em; margin-bottom: 15px; font-weight: bold; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">🎯 Metas de Educación y Desarrollo Personal</h1>
+                <p style="text-align: center; color: #ffffff; font-family: 'Georgia', serif; font-size: 1.2em; line-height: 1.5;">
+                    <em>Estudiante de Informática | 5° semestre | Aprendiendo y creando</em>
+                </p>
+            </p>
+            
+            <table style="width: 100%; table-layout: fixed; color: #ffffff; margin-top: 30px;">
+              <tr>
+                <!-- Metas Académicas -->
+                <td style="vertical-align: top; padding-right: 40px;">
+                  <h2 style="color: #00ffcc; font-family: 'Georgia', serif; font-size: 1.8em; text-align: left;">🎓 Metas Académicas</h2>
+                  <ul style="font-family: 'Arial', sans-serif; font-size: 1.1em; line-height: 1.8;">
+                    <li><strong>Finalizar mis estudios</strong> con un sólido dominio de las tecnologías clave en informática.</li>
+                    <li><strong>Especialización en desarrollo de software</strong> y adquirir experiencia en creación de aplicaciones.</li>
+                    <li><strong>Participar en proyectos de investigación tecnológica</strong>.</li>
+                    <li><strong>Fortalecer habilidades en diseño de bases de datos</strong> para optimizar la gestión de la información.</li>
+                  </ul>
+                </td>
+        
+                <!-- Metas de Desarrollo Personal -->
+                <td style="vertical-align: top; padding-left: 40px;">
+                  <h2 style="color: #00ffcc; font-family: 'Georgia', serif; font-size: 1.8em; text-align: left;">💡 Metas de Desarrollo Personal</h2>
+                  <ul style="font-family: 'Arial', sans-serif; font-size: 1.1em; line-height: 1.8;">
+                    <li><strong>Mejorar habilidades interpersonales</strong>, como el trabajo en equipo y el liderazgo de proyectos.</li>
+                    <li><strong>Mantenerme actualizada</strong> en las tendencias tecnológicas, participando en conferencias y cursos.</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        
+
+    <!-- Experience -->
+    <section class="experiencia section-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Programming -->
+                <div class="experiencia-columna col-12 col-md-4">                    
+                    <p class="columna experiencia-title">Programación</p>                    
+                    <i class="bi-braces"></i>
+                    <p>
+                        Programadora en formación.
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">C</span>
+                        <span class="badge bg-primary">Java</span>                        
+                    </div>
+                </div>
+                <!-- Design -->
+                <div class="experiencia-columna col-12 col-md-4">                    
+                    <p class="columna experiencia-title">Análisis de datos</p>
+                    <i class="bi-window-desktop"></i>
+                    <p>
+                        Analista de datos en formación, enfocada en transformar datos en decisiones estratégicas.
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">SQL</span>                        
+                        <span class="badge bg-primary">Heidi</span>
+                        <span class="badge bg-primary">MariaDB</span>                        
+                    </div>
+                </div>
+                <!-- Management -->
+                <div class="experiencia-columna col-12 col-md-4">
+                    <p class="columna experiencia-title">Áreas de interés</p>
+                    <i class="bi-person-gear"></i>
+                    <p>
+                        Diseño de redes: Planificación y creación de infraestructuras de redes locales (LAN), redes de área amplia (WAN) y redes inalámbricas.
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">Cisco Packet Tracer</span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Projects -->
+<section id="proyectos" class="proyectos">
+    <div class="contenedor" style="width: 80%; max-width: 1200px; margin: 0 auto;">
+        <h2 class="seccion-titulo" style="text-align: center; color: #333333; font-family: 'Georgia', serif; font-size: 2.5em; margin: 30px 0; font-weight: bold;">
+            Mis Proyectos
+        </h2>
+        <p style="text-align: center; color: #555555; font-family: 'Georgia', serif; font-size: 1.2em; line-height: 1.6; margin-bottom: 40px;">
+            En esta sección, destaco algunos de los proyectos más relevantes que he realizado durante mi formación académica. He trabajado en diversas implementaciones, como máquinas de Turing que exploran conceptos de computación teórica, un programa contable que optimiza la gestión financiera, y un sistema de control de alumnos utilizando colas y listas dinámicas. Además, he implementado estructuras de datos avanzadas, como colas y árboles de búsqueda binaria, para mejorar la eficiencia en la organización y acceso a la información.
+        </p>
+    </div>
+
+    <!-- Gallery -->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./images/Máquinas de Turing.png" alt="Máquina de Turing">
+                    <div class="overlay">
+                        <p>Máquina de Turing</p>
+                        <div class="icons-project">
+                            <a href="https://github.com/Elis12519/M-quina-de-Turing/blob/main/M%C3%A1quina-turing" target="_blank" rel="noopener noreferrer">
+                                <i class="bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./images/Máquinas de TuringM.png" alt="Máquina de Turing Multicinta">
+                    <div class="overlay">
+                        <p>Máquina de Turing multicinta</p>
+                        <div class="icons-project">
+                            <a href="https://github.com/Elis12519/M-quina-de-Turing-multicinta/blob/main/M%C3%A1quinadeTurin-Multicinta" target="_blank" rel="noopener noreferrer">
+                                <i class="bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./images/colas}.png" alt="Programa Colas Simples">
+                    <div class="overlay">
+                        <p>Programa colas simples</p>
+                        <div class="icons-project">
+                            <a href="https://github.com/Elis12519/Colas-est-ticas/blob/main/colasEstaticas" target="_blank" rel="noopener noreferrer">
+                                <i class="bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./images/proyectoed.png" alt="Control de Alumnos con Colas y Listas Dinámicas">
+                    <div class="overlay">
+                        <p>Control de alumnos con colas y listas dinámicas.</p>
+                        <div class="icons-project">
+                            <a href="https://github.com/Elis12519/Control-de-alumnos-listas-din-micas-y-archivos/blob/main/ControlAlum" target="_blank" rel="noopener noreferrer">
+                                <i class="bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./images/programConta.png" alt="Programa Contable">
+                    <div class="overlay">
+                        <p>Programa contable.</p>
+                        <div class="icons-project">
+                            <a href="https://github.com/Elis12519/Programa-contable/blob/main/ProgramContable" target="_blank" rel="noopener noreferrer">
+                                <i class="bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="./images/árbolesbin.png" alt="Árboles de Búsqueda Binaria">
+                    <div class="overlay">
+                        <p>Árboles de búsqueda binaria.</p>
+                        <div class="icons-project">
+                            <a href="https://github.com/Elis12519/-rboles-de-b-squeda-binaria/blob/main/ArbolesBin" target="_blank" rel="noopener noreferrer">
+                                <i class="bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">Más proyectos.
+                <i class="bi-arrow-right-circle"></i>
+            </button>
+        </a>
+    </div>
+</section>
+
+    <!-- Tips -->
+    <section class="tips justify-content-start">
+        <h2 class="seccion-titulo">Tips</h2>
+        <div class="card">
+            <div class="card-header">
+                Sobre Programación
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://keepcoding.io/blog/como-aprender-programacion-desde-cero/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Aprende a programar desde cero.</li>
+                </a>
+                <a href="https://youtu.be/2ZXiuh0rg3M?si=bt9VCWn9thkGapYX" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Programación en Java.</li>
+                </a>
+                <a href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.ROW&campaigntype=Search&portfolio=BrandDirect&language=EN&product=Course&test=&audience=Keyword&topic=&priority=&utm_content=deal4584&utm_term=_._ag_80315195513_._ad_535757779892_._kw_udemy_._de_c_._dm__._pl__._ti_kwd-296956216253_._li_20714_._pd__._&matchtype=b&gad_source=1&gclid=CjwKCAjwjsi4BhB5EiwAFAL0YOhPwW5dyl56OHy1uOtaAnE-K75CThj16PDVCE2PxcpIDJKKrp5jCBoCN_YQAvD_BwE" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Cursos diversas áreas tecnológicas.</li>
+                </a>
+                <a href="http://www.youtube.com/@SoyMiguelIdiomas" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Aprende idiomas (inglés)</li>
+                </a>
+                <a href="https://projecteuler.net/archives" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Aprende lógica de programación.</li>
+                </a>
+            </ul>
+        </div>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">Más tips
+                <i class="bi-arrow-right-circle"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- References -->
+    <section id="references" class="recomendaciones section-clara">
+        <h2 class="seccion-titulo">Recomendaciones</h2>
+        <h3 class="seccion-descripcion" style="text-align: center;">
+            Aquí encontrarás testimonios de compañeros que destacan mis habilidades en informática y mi capacidad para trabajar en equipo en proyectos colaborativos.
+        </h3>        
+        <div id="recomendaciones" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <img src="./images/ale.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto"> Habilidad en programación y su dedicación a proyectos desafiantes. Su trabajo en analisis de datos demuestra su capacidad para resolver problemas y colaborar eficazmente en equipo.</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Alejandra Jiménez</p>
+                        <p class="cargo">Estudinate Informática</p>
+                    </div>                    
+                </div>
+            </div> 
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="./images/ernesto.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto"> Destaca por su dedicación, rápido aprendizaje y habilidades técnicas en informática. Es un estudiante confiable y eficaz, con gran potencial para contribuir en proyectos tecnológicos.</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Ernesto Ramos</p>
+                        <p class="cargo">Estudiante informática</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="./images/chava.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto"> Es un estudiante de informática talentoso y comprometido, con habilidades destacadas en programación y resolución de problemas. Su capacidad de aprendizaje rápido y su enfoque en el trabajo en equipo lo hacen altamente recomendable</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Salvador Sánchez</p>
+                        <p class="cargo">Estudiante informática</p>
+                    </div>                    
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recomendaciones"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recomendaciones"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contactme" class="contact section-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        Contactame
+                    </div>
+                    <div class="col-12 col-md-4 description">
+                        Estudiante de Informática buscando oportunidades de colaboración y aprendizaje. 
+                        Interesada en proyectos de desarrollo de software, ciberseguridad y análisis de datos.
+                        ¡Estoy dispuesta a aprender y crecer con tu ayuda!
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:">
+                            <button type="button">
+                                Contacto
+                                <i class="bi-envelope-check"></i>
+                            </button>
+                        </a>                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+<!-- Sección Certificaciones -->
+<section id="certificaciones" class="certificaciones section-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo" style="font-family:cursive;">Certificaciones</h2>
+        <div class="fila" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <div class="columna">
+                <img src="./images/certificacion.png" alt="Certificación" class="img-fluid" style="width: 400px; height: auto; margin-bottom: 20px;">
+            </div>
+        </div>
+    </div>
+</section>
+<li class="nav-item">
+    <a class="nav-link" href="#certificaciones">Certificaciones</a>
+</li>
+</body>
+
+    <!-- Footer -->
+    <footer class="section-oscura d-flex flex-column aling-items-center justify-content-center">
+        <img class="footer-icon" src="./images/perfilq.jpg" alt="Logo profile">
+        <p class="footer-text text-center">
+            Si puedes imaginarlo, puedes programarlo. <br> - Programación ATS 
+        </p>
+        <div class="icons-sn d-flex flex-wrap aling-items-center justify-content-center">
+            <a href="https://www.threads.net/@elissaaa.0?invite=0" target="_blank" rel="noopener noreferrer">
+                <i class="bi-threads"></i>
+            </a>
+            <a href="https://www.facebook.com/lizzitha.sanchez.35?sfnsn=scwspwa&mibextid=RUbZ1f" target="_blank" rel="noopener noreferrer">
+                <i class="bi-facebook"></i>
+            </a>
+            <a href="https://github.com/Elis12519" target="_blank" rel="noopener noreferrer">
+                <i class="bi-github"></i>
+            </a>
+            <a href="https://www.tiktok.com/@elisa_sanchez02?_t=8qaxinNXDfS&_r=1" target="_blank" rel="noopener noreferrer">
+                <i class="bi-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/elissaaa.0/profilecard/?igsh=MTlvc3FmbG1rcmwzeA==" target="_blank" rel="noopener noreferrer">
+                <i class="bi-instagram"></i>
+            </a>
+            <a href="elissanchz02@gmail.com:" target="_blank" rel="noopener noreferrer">
+                <i class="bi-envelope"></i>
+            </a>
+        </div>
+        <div class="author"> Lizeth Elisa Sánchez Jiménez (2024) &#169; </div>
+    </footer>
+
+    <!-- Bootstrap JS offline -->
+    <script src="./js/bootstrap.min.js"></script>    
+    <Bootstrap JS online>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="./js/main.js"></script>    
+
+</html>
