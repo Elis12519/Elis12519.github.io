@@ -12,6 +12,9 @@
     background-color: #f5f6f7;
 }
 
+.row{
+    cursor: url('/images/squirrel.png');
+} 
 .navbar-nav {
     align-items: center;
 }
