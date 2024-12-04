@@ -26,6 +26,14 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Royal Wedding';
+    src: url('./fonts/RoyalWedding-Regular.ttf') format('truetype'); /* Adjust the path as necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
 .row{
     cursor: url('/images/squirrel.png');
 } 
