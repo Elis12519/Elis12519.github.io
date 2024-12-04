@@ -34,6 +34,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'KingsLanding';
+    src: url('./fonts/KingsLanding.ttf') format('truetype'); /* Asegúrate de que la ruta sea correcta */
+    font-weight: normal;
+    font-style: normal;
+}
+
 .row{
     cursor: url('/images/squirrel.png');
 } 
