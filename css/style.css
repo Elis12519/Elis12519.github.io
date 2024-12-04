@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Please Write Me a Song';
+    src: url('./fonts/PleaseWriteMeASong.ttf') format('truetype'); /* Adjust the path as necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
 .row{
     cursor: url('/images/squirrel.png');
 } 
