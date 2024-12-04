@@ -12,6 +12,13 @@
     background-color: #f5f6f7;
 }
 
+@font-face {
+    font-family: 'Sawer';
+    src: url('./fonts/Sawer.ttf') format('truetype'); /* Ajusta la ruta según la ubicación de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
 .row{
     cursor: url('/images/squirrel.png');
 } 
