@@ -112,20 +112,59 @@
 
     
     <!-- Me -->
-    <section class="myclass d-flex align-items-center" style="background-color: #f7f7f7; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        <div class="myclass-main d-flex align-items-center text-center" style="flex: 1;">
-            <img class="myclass-pic rounded-circle" src="./images/perfilq.jpg" alt="My selfie" style="width: 200px; height: 200px; margin-right: 30px; border: 2px solid #4CAF50;">
-            <h1 style="font-family: 'Please Write Me a Song', cursive; font-size: 3.5rem; color: #333;">Elisa Sánchez</h1>
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Perfil Section -->
+<section class="py-5 bg-light" style="margin-top: 60px;">
+
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Foto de perfil -->
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="./images/perfilq.jpg" alt="Elisa Sánchez" class="rounded-circle shadow-lg img-fluid perfil-img">
+            </div>
+            <!-- Nombre e info -->
+            <div class="col-md-8 text-center text-md-start">
+                <h1 class="fw-bold mb-3" style="font-family: 'Georgia', serif; font-size: 3rem; color: #333;">
+                    Elisa Sánchez
+                </h1>
+                <h2 class="text-muted mb-3" style="font-size: 1.5rem;">
+                    Estudiante de Informática | 5° semestre | Aprendiendo y creando
+                </h2>
+                <!-- redes sociales y cv -->
+                <div class="mt-3">
+                    <a href="https://github.com/Elis12519" target="_blank" class="btn btn-dark btn-lg me-2">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="https://www.instagram.com/elissaaa.0?igsh=MTlvc3FmbG1rcmwzeA==" target="_blank" class="btn btn-outline-secondary btn-lg">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                    <a href="./files/Elisa-Sanchez-CV.pdf" target="_blank" class="btn btn-outline-secondary btn-lg">
+                        <i class="bi bi-file-earmark-person"></i> Ver CV
+                    </a>                    
+                </div>
+            </div>
         </div>
-    </section>
-    
-    
-            <!--h2 style="font-size: 3.5rem; color: #4CAF50; font-style: italic;">💻Informática📚</h2>-->
-        </div>
-        <div class="myclass-label text-center" style="flex: 1;">
-            <img class="myclass-imagen img-fluid" src="./images/incio.gif" alt="think twice code once" style="width: 400px; height: auto; margin: 20px auto; display: block;">
-        </div>
-    </section>
+    </div>
+</section>
+
+<!-- Animación CSS -->
+<style>
+.perfil-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #4CAF50;
+    transition: transform 0.4s ease;
+}
+.perfil-img:hover {
+    transform: scale(1.1);
+}
+</style>
+
     
 
 
@@ -213,109 +252,140 @@
         </div>
     </section>
 
- <!-- Projects -->
- <section id="proyectos" class="proyectos">
-    <div class="contenedor" style="width: 80%; max-width: 1200px; margin: 0 auto;">
-        <h2 class="seccion-titulo" style="text-align: center; color: #333333; font-family: 'Bitcheese', cursive; font-size: 4em; margin: 30px 0; font-weight: bold;">
-            Mis Proyectos
-        </h2>
-        <p style="text-align: center; color: #555555; font-family: 'Georgia', serif; font-size: 1.2em; line-height: 1.6; margin-bottom: 40px;">
-            En esta sección, destaco algunos de los proyectos más relevantes que he realizado durante mi formación académica. He trabajado en diversas implementaciones, como máquinas de Turing que exploran conceptos de computación teórica, un programa contable que optimiza la gestión financiera, y un sistema de control de alumnos utilizando colas y listas dinámicas. Además, he implementado estructuras de datos avanzadas, como colas y árboles de búsqueda binaria, para mejorar la eficiencia en la organización y acceso a la información.
-        </p>
-    </div>
-</section>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Gallery -->
-    <div class="container text-center proyectos-contenedor">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="./images/Máquinas de Turing.png" alt="Máquina de Turing">
-                    <div class="overlay">
-                        <p>Máquina de Turing</p>
-                        <div class="icons-project">
-                            <a href="https://github.com/Elis12519/M-quina-de-Turing/blob/main/M%C3%A1quina-turing" target="_blank" rel="noopener noreferrer">
-                                <i class="bi-github"></i>
-                            </a>
-                        </div>
+<!-- jQuery (necesario para la animación de scroll) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Projects Section -->
+<section id="proyectos" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4" style="font-family: 'Georgia', serif; font-size: 3rem;">Mis Proyectos</h2>
+        <p class="text-center text-muted mb-5">
+            Aquí destaco algunos de los proyectos más relevantes que he desarrollado durante mi formación académica.
+        </p>
+
+        <div class="row g-4">
+            <!-- Proyecto -->
+            <div class="col-md-6 col-lg-4 proyecto fade-in">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="./images/Máquinas de Turing.png" class="card-img-top" alt="Máquina de Turing">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Máquina de Turing</h5>
+                        <a href="https://github.com/Elis12519/M-quina-de-Turing/blob/main/M%C3%A1quina-turing" target="_blank" class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> Ver en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="./images/Máquinas de TuringM.png" alt="Máquina de Turing Multicinta">
-                    <div class="overlay">
-                        <p>Máquina de Turing multicinta</p>
-                        <div class="icons-project">
-                            <a href="https://github.com/Elis12519/M-quina-de-Turing-multicinta/blob/main/M%C3%A1quinadeTurin-Multicinta" target="_blank" rel="noopener noreferrer">
-                                <i class="bi-github"></i>
-                            </a>
-                        </div>
+
+            <!-- Proyecto -->
+            <div class="col-md-6 col-lg-4 proyecto fade-in">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="./images/Máquinas de TuringM.png" class="card-img-top" alt="Máquina de Turing Multicinta">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Máquina de Turing multicinta</h5>
+                        <a href="https://github.com/Elis12519/M-quina-de-Turing-multicinta/blob/main/M%C3%A1quinadeTurin-Multicinta" target="_blank" class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> Ver en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="./images/colas}.png" alt="Programa Colas Simples">
-                    <div class="overlay">
-                        <p>Programa colas simples</p>
-                        <div class="icons-project">
-                            <a href="https://github.com/Elis12519/Colas-est-ticas/blob/main/colasEstaticas" target="_blank" rel="noopener noreferrer">
-                                <i class="bi-github"></i>
-                            </a>
-                        </div>
+
+            <!-- Proyecto -->
+            <div class="col-md-6 col-lg-4 proyecto fade-in">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="./images/colas}.png" class="card-img-top" alt="Programa Colas Simples">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Programa colas simples</h5>
+                        <a href="https://github.com/Elis12519/Colas-est-ticas/blob/main/colasEstaticas" target="_blank" class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> Ver en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="./images/proyectoed.png" alt="Control de Alumnos con Colas y Listas Dinámicas">
-                    <div class="overlay">
-                        <p>Control de alumnos con colas y listas dinámicas.</p>
-                        <div class="icons-project">
-                            <a href="https://github.com/Elis12519/Control-de-alumnos-listas-din-micas-y-archivos/blob/main/ControlAlum" target="_blank" rel="noopener noreferrer">
-                                <i class="bi-github"></i>
-                            </a>
-                        </div>
+
+            <!-- Proyecto -->
+            <div class="col-md-6 col-lg-4 proyecto fade-in">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="./images/proyectoed.png" class="card-img-top" alt="Control de Alumnos con Colas y Listas Dinámicas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Control de alumnos</h5>
+                        <a href="https://github.com/Elis12519/Control-de-alumnos-listas-din-micas-y-archivos/blob/main/ControlAlum" target="_blank" class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> Ver en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="./images/programConta.png" alt="Programa Contable">
-                    <div class="overlay">
-                        <p>Programa contable.</p>
-                        <div class="icons-project">
-                            <a href="https://github.com/Elis12519/Programa-contable/blob/main/ProgramContable" target="_blank" rel="noopener noreferrer">
-                                <i class="bi-github"></i>
-                            </a>
-                        </div>
+
+            <!-- Proyecto -->
+            <div class="col-md-6 col-lg-4 proyecto fade-in">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="./images/programConta.png" class="card-img-top" alt="Programa Contable">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Programa contable</h5>
+                        <a href="https://github.com/Elis12519/Programa-contable/blob/main/ProgramContable" target="_blank" class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> Ver en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="./images/árbolesbin.png" alt="Árboles de Búsqueda Binaria">
-                    <div class="overlay">
-                        <p>Árboles de búsqueda binaria.</p>
-                        <div class="icons-project">
-                            <a href="https://github.com/Elis12519/-rboles-de-b-squeda-binaria/blob/main/ArbolesBin" target="_blank" rel="noopener noreferrer">
-                                <i class="bi-github"></i>
-                            </a>
-                        </div>
+
+            <!-- Proyecto -->
+            <div class="col-md-6 col-lg-4 proyecto fade-in">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="./images/árbolesbin.png" class="card-img-top" alt="Árboles de Búsqueda Binaria">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Árboles de búsqueda binaria</h5>
+                        <a href="https://github.com/Elis12519/-rboles-de-b-squeda-binaria/blob/main/ArbolesBin" target="_blank" class="btn btn-outline-dark">
+                            <i class="bi bi-github"></i> Ver en GitHub
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div style="text-align: center; margin: 40px 0;">
-        <a href="" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">Más proyectos.
-                <i class="bi-arrow-right-circle"></i>
-            </button>
-        </a>
+
+        <div class="text-center mt-5">
+            <a href="" target="_blank" class="btn btn-info btn-lg">
+                Más proyectos <i class="bi bi-arrow-right-circle"></i>
+            </a>
+        </div>
     </div>
 </section>
+
+<!-- Fade-in Animation CSS -->
+<style>
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+</style>
+
+<!-- jQuery Scroll Animation Script -->
+<script>
+$(window).on('scroll', function() {
+    $('.fade-in').each(function() {
+        var top_of_element = $(this).offset().top;
+        var bottom_of_screen = $(window).scrollTop() + $(window).height();
+
+        if (bottom_of_screen > top_of_element + 100) {
+            $(this).addClass('show');
+        }
+    });
+});
+</script>
 
     <!-- Tips -->
     <section class="tips justify-content-start">
