@@ -10,7 +10,8 @@
     <!-- Title -->
     <title>Elisa Sánchez</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./images/logg.png">
+    <link rel="icon" href="images/logg.png" type="image/x-icon">
+
     <!-- Bootstrap CSS offline -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons offline -->
@@ -63,41 +64,60 @@
     </style>
     <!--Fin cursor-->
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-toggler">
-                <a class="navbar-brand" href="#">
-                    <img src="./images/perffil.png" width="50" alt="My logo">
-                </a>
-                <ul class="navbar-nav d-flex justify-content-center aling-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#aboutme" aria-current="page">Sobre mí <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#references">Referencias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactme">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./images/perffil.png" width="50" alt="My logo" style="border-radius: 50%;">
+            </a>
+            <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#aboutme" aria-current="page">Sobre mí <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#references">Referencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactme">Contacto</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+
+<!-- jQuery for hover effect -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('a.nav-link').hover(
+            function() {
+                $(this).animate({ opacity: 0.7 }, 200);
+            }, 
+            function() {
+                $(this).animate({ opacity: 1 }, 200);
+            }
+        );
+    });
+</script>
+
     
     <!-- Me -->
-    <section class="myclass d-flex align-items-stretch" style="background-color: #f7f7f7; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        <div class="myclass-main d-flex flex-column justify-content-center align-items-center text-center" style="flex: 1;">
-            <img class="myclass-pic rounded-circle" src="./images/perfilq.jpg" alt="My selfie" style="width: 150px; height: 150px; margin-bottom: 20px; border: 2px solid #4CAF50;">
-            <h1 style="font-family: 'Please Write Me a Song', cursive; font-size: 2.5rem; color: #333;">Hi, I'm Elisa</h1>
-            <!--Fuentes-->
-            <h2 style="font-family: 'Sawer', monospace; font-size: 3.5rem; color: #4CAF50; font-style: italic;">💻Informática📚</h2>
+    <section class="myclass d-flex align-items-center" style="background-color: #f7f7f7; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <div class="myclass-main d-flex align-items-center text-center" style="flex: 1;">
+            <img class="myclass-pic rounded-circle" src="./images/perfilq.jpg" alt="My selfie" style="width: 200px; height: 200px; margin-right: 30px; border: 2px solid #4CAF50;">
+            <h1 style="font-family: 'Please Write Me a Song', cursive; font-size: 3.5rem; color: #333;">Elisa Sánchez</h1>
+        </div>
+    </section>
+    
+    
             <!--h2 style="font-size: 3.5rem; color: #4CAF50; font-style: italic;">💻Informática📚</h2>-->
         </div>
         <div class="myclass-label text-center" style="flex: 1;">
