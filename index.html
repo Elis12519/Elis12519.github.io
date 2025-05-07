@@ -111,15 +111,14 @@
 </script>
 
     
-    <!-- Me -->
-  <!-- Bootstrap CSS -->
+ <!-- Me -->
+<!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap Icons -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
 <!-- Perfil Section -->
-<section class="py-5 bg-light" style="margin-top: 60px;">
-
+<section class="py-5 bg-light" style="margin-top: 60px; padding: 80px 0;"> <!-- Aumento el padding -->
     <div class="container">
         <div class="row align-items-center">
             <!-- Foto de perfil -->
@@ -128,21 +127,21 @@
             </div>
             <!-- Nombre e info -->
             <div class="col-md-8 text-center text-md-start">
-                <h1 class="fw-bold mb-3" style="font-family: 'Georgia', serif; font-size: 3rem; color: #333;">
+                <h1 class="fw-bold mb-3" style="font-family: 'Georgia', serif; font-size: 4rem; color: #333;">
                     Elisa Sánchez
                 </h1>
-                <h2 class="text-muted mb-3" style="font-size: 1.5rem;">
+                <h2 class="text-muted mb-3" style="font-size: 2rem;">
                     Estudiante de Informática | 5° semestre | Aprendiendo y creando
                 </h2>
                 <!-- redes sociales y cv -->
                 <div class="mt-3">
-                    <a href="https://github.com/Elis12519" target="_blank" class="btn btn-dark btn-lg me-2">
+                    <a href="https://github.com/Elis12519" target="_blank" class="btn btn-dark btn-lg me-2" style="padding: 15px 30px; font-size: 1.2rem;">
                         <i class="bi bi-github"></i> GitHub
                     </a>
-                    <a href="https://www.instagram.com/elissaaa.0?igsh=MTlvc3FmbG1rcmwzeA==" target="_blank" class="btn btn-outline-secondary btn-lg me-2">
+                    <a href="https://www.instagram.com/elissaaa.0?igsh=MTlvc3FmbG1rcmwzeA==" target="_blank" class="btn btn-outline-secondary btn-lg me-2" style="padding: 15px 30px; font-size: 1.2rem;">
                         <i class="bi bi-instagram"></i> Instagram
                     </a>
-                    <a href="./files/Elisa_Sanchez_CV.pdf" target="_blank" class="btn btn-outline-secondary btn-lg">
+                    <a href="./files/Elisa_Sánchez_CV.pdf" target="_blank" class="btn btn-outline-secondary btn-lg" style="padding: 15px 30px; font-size: 1.2rem;">
                         <i class="bi bi-file-earmark-person"></i> Ver CV
                     </a>
                 </div>
@@ -151,6 +150,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- Animación CSS -->
 <style>
@@ -173,12 +173,12 @@
     <section id="aboutme" class="about-me section-oscura">
         <div class="contenedor" style="width: 80%; max-width: 1300px; margin: 0 auto;">
             <h2 class="seccion-titulo" style="text-align: center; color: #ffffff; font-family: 'Georgia', serif; font-size: 2em; margin: 20px 0; font-weight: bold; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);">
-                Conoce a Elisa
+                Más de mi
             </h2>
                         <p class="seccion-texto">
                 <h1 style="text-align: center; color: #ffffff; font-family: 'Georgia', serif; font-size: 2.8em; margin-bottom: 15px; font-weight: bold; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">🎯 Metas de Educación y Desarrollo Personal</h1>
                 <p style="text-align: center; color: #ffffff; font-family: 'Georgia', serif; font-size: 1.2em; line-height: 1.5;">
-                    <em>Estudiante de Informática | 5° semestre | Aprendiendo y creando</em>
+                    <em>Estudiante de Informática | Desarrollando mis competencias en programación y tecnología</em>
                 </p>
             </p>
             
@@ -209,49 +209,64 @@
         </section>
         
 
-    <!-- Experience -->
-    <section class="experiencia section-clara">
-        <div class="container text-center">
-            <div class="row">
-                <!-- Programming -->
-                <div class="experiencia-columna col-12 col-md-4">                    
-                    <p class="columna experiencia-title">Programación</p>                    
-                    <i class="bi-braces"></i>
-                    <p>
-                        Programadora en formación.
-                    </p>
-                    <div class="badge-contenedor">                        
-                        <span class="badge bg-primary">C</span>
-                        <span class="badge bg-primary">Java</span>                        
-                    </div>
+  <!-- Experience -->
+<section class="experiencia section-clara py-5">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Programming -->
+            <div class="col-12 col-md-4 mb-4">
+                <h3 class="experiencia-title text-primary">Programación</h3>
+                <i class="bi-braces fs-2 mb-3"></i>
+                <p class="text-muted">En formación como programadora, con un enfoque en el desarrollo de soluciones eficaces.</p>
+                <div class="badge-contenedor">
+                    <span class="badge bg-primary">C</span>
+                    <span class="badge bg-primary">Java</span>
+                    <span class="badge bg-primary">Android Studio</span>
+                    <span class="badge bg-primary">Machine Learning</span>
                 </div>
-                <!-- Design -->
-                <div class="experiencia-columna col-12 col-md-4">                    
-                    <p class="columna experiencia-title">Análisis de datos</p>
-                    <i class="bi-window-desktop"></i>
-                    <p>
-                        Analista de datos en formación, enfocada en transformar datos en decisiones estratégicas.
-                    </p>
-                    <div class="badge-contenedor">                        
-                        <span class="badge bg-primary">SQL</span>                        
-                        <span class="badge bg-primary">Heidi</span>
-                        <span class="badge bg-primary">MariaDB</span>                        
-                    </div>
+            </div>
+            
+            <!-- Data Analysis -->
+            <div class="col-12 col-md-4 mb-4">
+                <h3 class="experiencia-title text-primary">Análisis de Datos</h3>
+                <i class="bi-window-desktop fs-2 mb-3"></i>
+                <p class="text-muted">Analista de datos en formación, enfocada en la interpretación de datos para apoyar la toma de decisiones.</p>
+                <div class="badge-contenedor">
+                    <span class="badge bg-primary">SQL</span>
+                    <span class="badge bg-primary">MySQL</span>
+                    <span class="badge bg-primary">HeidiSQL</span>
+                    <span class="badge bg-primary">DBeaver</span>
+                    <span class="badge bg-primary">Machine Learning</span>
                 </div>
-                <!-- Management -->
-                <div class="experiencia-columna col-12 col-md-4">
-                    <p class="columna experiencia-title">Áreas de interés</p>
-                    <i class="bi-person-gear"></i>
-                    <p>
-                        Diseño de redes: Planificación y creación de infraestructuras de redes locales (LAN), redes de área amplia (WAN) y redes inalámbricas.
-                    </p>
-                    <div class="badge-contenedor">                        
-                        <span class="badge bg-primary">Cisco Packet Tracer</span>                        
-                    </div>
+            </div>
+            
+            <!-- Networking -->
+            <div class="col-12 col-md-4 mb-4">
+                <h3 class="experiencia-title text-primary">Diseño de Redes</h3>
+                <i class="bi-person-gear fs-2 mb-3"></i>
+                <p class="text-muted">En formación en el diseño y gestión de redes locales y de área amplia (LAN, WAN), así como redes inalámbricas.</p>
+                <div class="badge-contenedor">
+                    <span class="badge bg-primary">Cisco Packet Tracer</span>
+                    <span class="badge bg-primary">Cisco</span>
                 </div>
             </div>
         </div>
-    </section>
+        
+        <!-- Additional Technologies -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="text-primary">Otras Tecnologías y Herramientas</h3>
+                <div class="badge-contenedor">
+                    <span class="badge bg-secondary">Figma</span>
+                    <span class="badge bg-secondary">Git</span>
+                    <span class="badge bg-secondary">Bootstrap</span>
+                    <span class="badge bg-secondary">jQuery</span>
+                    <span class="badge bg-secondary">MariaDB</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -477,21 +492,68 @@ $(window).on('scroll', function() {
 
       
 </section>
-<!-- Sección Certificaciones -->
+<!-- Sección Certificaciones y Actualización Profesional -->
 <section id="certificaciones" class="certificaciones section-oscura">
     <div class="contenedor">
-        <h2 class="seccion-titulo" style="font-family:cursive;">Certificaciones</h2>
-        <div class="fila" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-            <div class="columna">
-                <img src="./images/certificacion.png" alt="Certificación" class="img-fluid" style="width: 400px; height: auto; margin-bottom: 20px;">
+        <!-- Título centrado -->
+        <h2 class="seccion-titulo text-center" style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; color: #fff;">Certificaciones y Formación Profesional</h2>
+
+        <!-- Contenedor de certificaciones y actualizaciones alineados horizontalmente -->
+        <div class="fila d-flex justify-content-center gap-4" style="flex-wrap: wrap;">
+
+            <!-- Certificación 1: Mujer Digital -->
+            <div class="columna" style="flex: 1 1 300px; min-width: 300px; font-family: 'Poppins', sans-serif;">
+                <h3 style="font-size: 1.5rem; color: #fff;">Mujer Digital - Junior Achievement Américas & IBM</h3>
+                <p><strong style="font-size: 1.1rem;">(Marzo 2024)</strong></p>
+                <ul style="list-style-type: none; padding: 0; color: #ddd;">
+                    <li>Tecnologías emergentes y habilidades del futuro</li>
+                    <li>Inteligencia artificial en el mundo actual</li>
+                    <li>Ciberseguridad</li>
+                </ul>
+                <!-- Línea de separación -->
+                <hr class="border-light my-3">
             </div>
+
+            <!-- Certificación 2: Introducción al Machine Learning -->
+            <div class="columna" style="flex: 1 1 300px; min-width: 300px; font-family: 'Poppins', sans-serif;">
+                <h3 style="font-size: 1.5rem; color: #fff;">Introducción al Machine Learning</h3>
+                <p><strong style="font-size: 1.1rem;">CONISOFT (2024)</strong></p>
+                <p>Impartido por: Alan David Ramírez Noriega, Universidad Autónoma de Sinaloa.</p>
+                <!-- Línea de separación -->
+                <hr class="border-light my-3">
+            </div>
+
+            <!-- Certificación 3: Despliegue de aplicaciones web -->
+            <div class="columna" style="flex: 1 1 300px; min-width: 300px; font-family: 'Poppins', sans-serif;">
+                <h3 style="font-size: 1.5rem; color: #fff;">Despliegue de aplicaciones web y modelos de Machine Learning en contenedores</h3>
+                <p><strong style="font-size: 1.1rem;">CONISOFT (2024)</strong></p>
+                <p>Impartido por: Moisés Emmanuel Ramos Guzmán, Universidad Tecnológica de la Mixteca.</p>
+                <!-- Línea de separación -->
+                <hr class="border-light my-3">
+            </div>
+
+            <!-- Certificación 4: Mantenimiento y reparación de equipos -->
+            <div class="columna" style="flex: 1 1 300px; min-width: 300px; font-family: 'Poppins', sans-serif;">
+                <h3 style="font-size: 1.5rem; color: #fff;">Mantenimiento y reparación de equipos de cómputo</h3>
+                <p><strong style="font-size: 1.1rem;">Universidad del Mar (2025)</strong></p>
+                <p>Impartido por: M.C. Christian Ayala Esquivel.</p>
+                <!-- Línea de separación -->
+                <hr class="border-light my-3">
+            </div>
+
         </div>
     </div>
 </section>
-<li class="nav-item">
-    <!--<a class="nav-link" href="#certificaciones">Certificaciones</a>-->
-</li>
-</body>
+
+<!-- Agregar fuente "Poppins" de Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+<!-- Agregar fuente "Poppins" de Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
 
     <!-- Footer -->
     <!-- Contact Section -->
@@ -513,11 +575,6 @@ $(window).on('scroll', function() {
                             <i class="fab fa-whatsapp me-2"></i> Enviar WhatsApp
                         </a>
                     </div>   
-                                       
-                    <div class="social-icons d-flex justify-content-center mt-4">
-                        <a href="https://github.com/Elis12519" target="_blank" class="me-3"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/elissaaa.0?igsh=MTlvc3FmbG1rcmwzeA==" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
